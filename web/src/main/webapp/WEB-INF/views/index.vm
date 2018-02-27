@@ -1,0 +1,410 @@
+﻿<!Doctype html>
+<html>
+	<head>
+		<title>贵州农产品交易平台</title>
+		<meta http-equiv="Content Type" content="text/html" charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="../../css/index.css" />
+		<link rel="stylesheet" type="text/css" href="../../css/error.css">
+		<link rel="stylesheet" href="../../bootstrap/css/bootstrap.min.css">
+		<script src="../../jquery/jquery-2.2.3.min.js"></script>
+		<script src="../../jquery/jquery.validate.min.js"></script>
+		<script src="../../layer/layer.js"></script>
+		<script src="../../bootstrap/js/bootstrap.min.js"></script>
+		<script src="../../js/check.js"></script>
+		<script src="../../js/jump.js"></script>
+	</head>
+	<body>
+		<div class="wrap">
+			<!--top start-->
+			<div class="top clearfix">
+				<p class="home floL">
+					<a href="index.vm" class="our">我们首页</a>
+					欢迎来到我们！
+					<span>请<a href="#" class="sign">登录</a></span>
+					<a href="#" id="registration">免费注册</a>
+				</p>
+				<p class="order floR">
+					<a href="" class="us">我的订单</a>
+					<a href="">走过路过</a>
+					<a href="">收藏夹</a>
+					<a href="">服务中心</a>
+					<a href="">关注我们</a>
+				</p>
+			</div>
+			<!--end top-->
+			<!--search start-->
+			<div class="search">
+				<ul class="clearfix">
+					<li class="floL logo">
+						<a href="index.vm">
+							<img src="images/logo.jpg" alt="logo" class="img-rounded"/>
+						</a>
+					</li>
+					<li class="floL searchBox">
+						<div class="input-group">
+							<input type="text" class="form-control" placeholder="搜你所想，买你所要......">
+							<span class="input-group-btn">
+								<button class="btn btn-default" type="button" style="background: url('images/input.jpg');"><span style="opacity: 0;">搜索</span></button>
+						  </span>
+						</div>
+						<p>
+							<a href="">野生核桃</a>
+							<a href="">有机蓝莓</a>
+							<a href="">刺梨</a>
+							<a href="">毛尖茶</a>
+							<a href="">朝天辣</a>
+							<a href="">野木瓜</a>
+							<a href="">山药</a>
+						</p>
+					</li>
+				</ul>
+			</div>
+			<!--end search-->
+			<!--nav start-->
+			<div class="nav">
+				<ul class="clearfix">
+					<li class="floL all"><a href="">所有分类</a></li>
+					<li class="floL frist"><a href="">首页</a></li>
+					<li class="floL"><a href="">贵阳特产</a></li>
+					<li class="floL"><a href="">遵义特产</a></li>
+					<li class="floL"><a href="">六盘水特产</a></li>
+					<li class="floL"><a href="">安顺特产</a></li>
+					<li class="floL"><a href="">毕节特产</a></li>
+					<li class="floL"><a href="">铜仁特产</a></li>
+					<li class="floL"><a href="">黔东南特产</a></li>
+					<li class="floL"><a href="">黔西南特产</a></li>
+					<li class="floL"><a href="">黔南特产</a></li>
+				</ul>
+			</div>
+			<!--end nav-->
+			<!--banner start-->
+			<div class="banner">
+				<div class="out"></div>
+				<div class="in"></div>
+				<div class="inn">
+					<img src="../../images/0.jpg" alt="" class="img-circle">
+				</div>
+				<p class="around personal">
+					<span></span>
+					<img src="../../images/01.png" alt="" class="img-circle">
+				</p>
+				<p class="around edu">
+					<span></span>
+					<img src="../../images/02.png" alt="" class="img-circle">
+				</p>
+				<p class="around job">
+					<span></span>
+					<img src="../../images/03.png" alt="" class="img-circle">
+				</p>
+				<p class="around tree">
+					<span></span>
+					<img src="../../images/04.png" alt="" class="img-circle">
+				</p>
+				<p class="around water">
+					<span></span>
+					<img src="../../images/05.png" alt="" class="img-circle">
+				</p>
+				<p class="around enter">
+					<span></span>
+					<img src="../../images/06.png" alt="" class="img-circle">
+				</p>
+				<p class="around singer">
+					<span></span>
+					<img src="../../images/07.png" alt="" class="img-circle">
+				</p>
+				<p class="around doctor">
+					<span></span>
+					<img src="../../images/08.png" alt="" class="img-circle">
+				</p>
+				<p class="around sale">
+					<span></span>
+					<img src="../../images/09.png" alt="" class="img-circle">
+				</p>
+				<p class="around sales">
+					<span></span>
+					<img src="../../images/10.png" alt="" class="img-circle">
+				</p>
+				<p class="around add">
+					<span></span>
+					<img src="images/11.png" alt="" class="img-circle">
+				</p>
+				<p class="around adds">
+					<span></span>
+					<img src="../../images/12.png" alt="" class="img-circle">
+				</p>
+			</div>
+			<!--end banner-->
+			<!--list start-->
+			<div class="list clearfix">
+				<ul class="clearfix subnav">
+					<li class="floL title"><a href="">爽爽贵阳</a></li>
+					<li class="floL"><a href="details.vm">老干妈</a></li>
+					<li class="floL"><a href="">糖麻圆</a></li>
+					<li class="floL"><a href="">蜂蜜酒</a></li>
+					<li class="floL"><a href="">玫瑰糖</a></li>
+					<li class="floL"><a href="">黄粑</a></li>
+				</ul>
+				<div class="mark floL">
+					<ul>
+						<li><a href="">瀑布啤酒</a></li>
+						<li><a href="">开阳富硒茶</a></li>
+						<li><a href="">富硒优质米</a></li>
+						<li><a href="">花溪辣椒</a></li>
+						<li><a href="">宗地土花猪</a></li>
+					</ul>
+					<img src="../../images/beizhan.jpg" style="width:150px;height:100px;margin: 0 35px; cursor: pointer;" class="img-circle" title="贵阳北站" />
+				</div>
+				<div class="goodsList floR">
+					<div class="row">
+						<div class="col-md-3">
+							<a href="details.vm"><img src="../../images/lgm.png" class="img-rounded" title="老干妈"></a>
+						</div>
+						<div class="col-md-3">
+							<img src="../../images/tmy.png" class="img-rounded" title="糖麻圆">
+						</div>
+						<div class="col-md-3">
+							<img src="../../images/thz.png" class="img-rounded" title="宗地土花猪">
+						</div>
+						<div class="col-md-3">
+							<img src="../../images/hxlj.png" class="img-rounded" title="花溪辣椒">
+						</div>
+					</div>
+					<div class="row" style="margin-top: 50px;">
+						<div class="col-md-3">
+							<img src="../../images/fxdm.png" class="img-rounded" title="开阳富硒大米">
+						</div>
+						<div class="col-md-3">
+							<img src="../../images/fmj.png" class="img-rounded" title="蜂蜜酒">
+						</div>
+						<div class="col-md-3">
+							<img src="../../images/fxc.png" class="img-rounded" title="富硒茶">
+						</div>
+						<div class="col-md-3">
+							<img src="../../images/pbpj.png" class="img-rounded" title="瀑布啤酒">
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<div class="list clearfix">
+				<ul class="clearfix subnav" id="f4581">
+					<li class="floL title"><a href="">红色遵义</a></li>
+					<li class="floL"><a href="">茅台酒</a></li>
+					<li class="floL"><a href="">赤水金钗石斛</a></li>
+					<li class="floL"><a href="">正安娃娃鱼</a></li>
+					<li class="floL"><a href="">湄潭翠芽</a></li>
+					<li class="floL"><a href="">余庆苦丁茶</a></li>
+				</ul>
+				<div class="mark floL" id="zy">
+					<ul>
+						<li><a href="">茅贡米</a></li>
+						<li><a href="">虾子辣椒</a></li>
+						<li><a href="">桐梓玉兰片</a></li>
+						<li><a href="">遵义朝天椒</a></li>
+						<li><a href="">赤水乌骨鸡</a></li>
+					</ul>
+					<img src="../../images/mtj.png" style="width:150px;height:100px;margin: 0 35px;cursor: pointer;" class="img-circle" title="茅台酒" />
+				</div>
+				<div class="goodsList floR">
+					<div class="row">
+						<div class="col-md-3">
+							<img src="../../images/jcsh.png" class="img-rounded" title="赤水金钗石斛">
+						</div>
+						<div class="col-md-3">
+							<img src="../../images/wgj.png" class="img-rounded" title="赤水乌骨鸡">
+						</div>
+						<div class="col-md-3">
+							<img src="../../images/mtcy.png" class="img-rounded" title="湄潭翠芽">
+						</div>
+						<div class="col-md-3">
+							<img src="../../images/kdc.png" class="img-rounded" title="余庆苦丁茶">
+						</div>
+					</div>
+					<div class="row" style="margin-top: 50px;">
+						<div class="col-md-3">
+							<img src="../../images/mgm.png" class="img-rounded" title="茅贡米">
+						</div>
+						<div class="col-md-3">
+							<img src="../../images/wwy.png" class="img-rounded" title="正安娃娃鱼">
+						</div>
+						<div class="col-md-3">
+							<img src="../../images/ylp.png" class="img-rounded" title="桐梓玉兰片">
+						</div>
+						<div class="col-md-3">
+							<img src="../../images/xzlj.png" class="img-rounded" title="虾子辣椒">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="list clearfix">
+				<ul class="clearfix subnav" id="b825e">
+					<li class="floL title"><a href="">凉都六盘水</a></li>
+					<li class="floL"><a href="">岩脚面</a></li>
+					<li class="floL"><a href="">一级野生天麻</a></li>
+					<li class="floL"><a href="">毛大姜茶</a></li>
+					<li class="floL"><a href="">郎岱酱</a></li>
+					<li class="floL"><a href="">盘县刺梨果脯</a></li>
+				</ul>
+				<div class="mark floL" id="lps">
+					<ul class="chair">
+						<li><a href="">郎岱茭白</a></li>
+						<li><a href="">牛场辣椒</a></li>
+						<li><a href="">盘县核桃</a></li>
+						<li><a href="">盘县火腿</a></li>
+						<li><a href="">四格乌洋芋</a></li>
+					</ul>
+					<img src="../../images/pxhtui.png" style="width:150px;height:100px;margin: 0 35px;cursor: pointer;" class="img-circle" title="盘县火腿" />
+				</div>
+				<div class="goodsList floR">
+					<div class="row">
+						<div class="col-md-3">
+							<img src="../../images/mdjc.png" class="img-rounded" title="毛大姜茶">
+						</div>
+						<div class="col-md-3">
+							<img src="../../images/ldj.png" class="img-rounded" title="郎岱酱">
+						</div>
+						<div class="col-md-3">
+							<img src="../../images/ldjb.png" class="img-rounded" title="郎岱茭白">
+						</div>
+						<div class="col-md-3">
+							<img src="../../images/nclj.png" class="img-rounded" title="牛场辣椒">
+						</div>
+					</div>
+					<div class="row" style="margin-top: 50px;">
+						<div class="col-md-3">
+							<img src="../../images/pxht.png" class="img-rounded" title="盘县核桃">
+						</div>
+						<div class="col-md-3">
+							<img src="../../images/tm.png" class="img-rounded" title="野生天麻">
+						</div>
+						<div class="col-md-3">
+							<img src="../../images/wyy.png" class="img-rounded" title="四格乌洋芋">
+						</div>
+						<div class="col-md-3">
+							<img src="../../images/clgp.png" class="img-rounded" title="盘县刺梨果铺">
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!--end list-->
+			<!--foot start-->
+			<div class="foot">
+				<ul class="clearfix">
+					<li class="floL">
+						<h4>
+							<a href="">购物指南</a>
+						</h4>
+						<p>
+							<a href="">购物流程</a><br />
+							<a href="">会员介绍</a><br />
+							<a href="">常见问题</a><br />
+							<a href="">联系客服</a><br />
+						</p>
+					</li>
+					<li class="floL">
+						<h4>
+							<a href="">配送方式</a>
+						</h4>
+						<p>
+							<a href="">上门自提</a><br />
+							<a href="">配送服务查询</a><br />
+							<a href="">配送费收取标准</a><br />
+							<a href="">海外配送</a><br />
+						</p>
+					</li>
+					<li class="floL">
+						<h4>
+							<a href="">支付方式</a>
+						</h4>
+						<p>
+							<a href="">货到付款</a><br />
+							<a href="">在线支付</a><br />
+							<a href="">邮局汇款</a><br />
+							<a href="">公司转账</a><br />
+						</p>
+					</li>
+					<li class="floL">
+						<h4>
+							<a href="">售后服务</a>
+						</h4>
+						<p>
+							<a href="">售后政策</a><br />
+							<a href="">价格保护</a><br />
+							<a href="">退款说明</a><br />
+							<a href="">返修/退换货</a><br />
+							<a href="">取消订单</a><br />
+						</p>
+					</li>
+					<li class="floL" style="text-align: center;">
+						<h4>
+							<a href="">关注我们</a>
+						</h4>
+						<p class="fff">
+							<img src="images/ewm.png" alt="" style="width: 100px;height: 100px;">
+						</p>
+					</li>
+					
+				</ul>
+			</div>
+			<!--end foot-->
+		</div>
+		<!--登录-->
+		<div class="container signIndex signLogin" style="width:100%;display: none;">
+			<div class="row" style="padding: 15px;"align="center">
+				<div class="loginTitle" align="center">用户登录</div>
+				<div class="warning"></div>
+				<div class="input-group" style="width:80%;margin-top: 30px;">
+					<input type="text" id="user" class="form-control" placeholder="手机号/邮箱" aria-describedby="basic-addon1" style="height:48px;border-radius: 5px;">
+				</div>
+				<div class="input-group" style="width:80%;margin-top: 20px;">
+					<input type="password" id="password" class="form-control"  placeholder="密码" aria-describedby="basic-addon1" style="height:48px;border-radius: 5px;">
+				</div>
+##				<div class="input-group" style="width:80%;margin-top: 20px;">
+##					<input type="text" id="code" class="form-control"  placeholder="验证码" aria-describedby="basic-addon1" style="width:56%;height:48px;border-radius: 5px;">
+##					<img id="codeImg" onclick="changeCodeImg()" src="/captcha/image/" alt="验证码" style="width:37.5%;">
+##				</div>
+				<div class="row" style="margin-top: 20px;margin-left: -62%;">
+					<input type="checkbox" value="记住我" />记住我
+				</div>
+				<div class="row" style="margin-top: 20px;">
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+						<a href="#" id="newReg" style="color: rgb(92,92,92);text-decoration:none">新用户注册</a>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+						<a href="#" style="color: rgb(92,92,92);text-decoration:none">忘记密码</a>
+					</div>
+				</div>
+				<button type="button" id="btn" class="btn btn-default loginReg">登录</button>
+			</div>
+		</div>
+		<!--注册-->
+		<div class="container signIndex register" style="width:100%;display: none;">
+			<form action="#" id="checkForm">
+				<div class="row" style="padding: 15px;"align="center">
+					<div class="loginTitle" align="center">用户注册</div>
+					<div class="input-group" style="width:80%;margin-top: 30px;">
+						<input type="text" id="registerUser" name="registerUser" class="form-control" placeholder="请使用手机号/邮箱进行注册" aria-describedby="basic-addon1" style="height:48px;border-radius: 5px;">
+					</div>
+					<div class="input-group" style="width:80%;margin-top: 20px;">
+						<input type="password" id="registerPassword" name="registerPassword" class="form-control"  placeholder="请输入6~20位密码" aria-describedby="basic-addon1" style="height:48px;border-radius: 5px;">
+					</div>
+					<div class="input-group" style="width:80%;margin-top: 20px;">
+						<input type="password" id="rightPassword" name="confirm_password" class="form-control"  placeholder="请确认密码" aria-describedby="basic-addon1" style="height:48px;border-radius: 5px;">
+					</div>
+					<div class="input-group verification" style="width:80%;margin-top: 20px;display: none;">
+						<input type="text" id="registerCode" class="form-control" name="registerCode" placeholder="验证码" aria-describedby="basic-addon1" style="width:56%;height:48px;border-radius: 5px;">
+						<a class="btn btn-default" href="#" role="button" style="height: 48px;padding-top: 15px;">发送短信</a>
+					</div>
+					<div class="row" style="margin-top: 20px;margin-left: -35%;margin-bottom: 20px;">
+						<input type="checkbox" name="regChekbox" value=""/>我以阅读并接受<a href="#" style="color: #00b7ee;text-decoration: none;">用户协议</a>
+					</div>
+					<button type="button" id="registerBtn" class="btn btn-default loginReg" style="margin: 0;">注册</button>
+					<div class="row" style="margin-top:20px;margin-left: -45%;margin-bottom: 44px;">
+						已有账号，<a href="#" id="regLogin" style="color: #00b7ee;text-decoration: none;">马上登录</a>
+					</div>
+				</div>
+			</form>
+		</div>
+	</body>
+</html>

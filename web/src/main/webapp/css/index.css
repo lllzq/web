@@ -1,0 +1,453 @@
+﻿@charset"utf-8";
+*{margin:0;padding:0;}
+li{list-style:none;}
+a{text-decoration:none;}
+/*公共样式*/
+.floL{float:left;}
+.floR{float:right;}
+.clearfix{content:"";display:block;clear:both;}
+.wrap{
+	width:100%;
+	margin:0px auto;
+	font-family:"微软雅黑";
+}
+/*顶部样式*/
+.wrap .top{
+	height:36px;
+	background:#f2f2f2;
+	font-size:12px;
+	line-height:36px;
+}
+.wrap .top .home{
+	color:#808080;	
+	background:url("../images/home.jpg") no-repeat 0px 8px;
+	margin-left: 20%;
+}
+.wrap .top .home a{
+	color:#808080;
+}
+.wrap .top .home .our{
+	margin:0px 21px;
+}
+.wrap .top .home span{
+	margin:0px 25px;
+}
+.wrap .top .home span a{
+	color:#c21d0b;
+}
+.wrap .top .order{
+	margin-right: 26.5%;
+}
+.wrap .top .order .us{
+	margin:0px;
+}
+.wrap .top .order a{
+	color:#808080;
+	margin-left:44px;
+}
+/*搜索框样式*/
+.wrap .search{
+	width:1127px;
+	margin:33px auto;
+}
+.wrap .search ul li{
+	margin-left:54px;
+}
+.wrap .search ul .logo{
+	margin:0px;
+}
+.wrap .search ul .searchBox{
+	width:498px;
+	padding-top:22px;
+}
+.wrap .search ul .searchBox a{
+	width:48px;
+	height:12px;
+	line-height:12px;
+	font-size:12px;
+	color:#808080;
+	text-align:center;
+	margin-right:18px;
+	display:inline-block;
+}
+
+.wrap .search ul .good{
+	line-height:40px;
+	padding-top:22px;
+}
+.wrap .search ul .good span{
+	vertical-align:top;
+}
+.wrap .search ul .shop{
+	padding-top:22px;
+}
+/*导航样式*/
+.wrap .nav{
+	width:100%;
+	height:37px;
+	box-shadow:0px 0px 15px #868686;
+	background:#272727;
+}
+.wrap .nav ul{
+	width:1200px;
+	height:37px;
+	margin-left:347px;
+}
+.wrap .nav ul	 .all{
+	width:174px;
+}
+.wrap .nav ul .frist{
+	width:58px;
+}
+.wrap .nav ul li{
+	height:37px;
+	width:80px;
+	text-align:center;
+	padding-top:12px;
+	margin-right:10px;
+}
+.wrap .nav ul li a{
+	color:#fff;
+	font-size:14px;
+}
+.wrap .nav ul li:hover{
+	height:37px;
+	width:88px;
+	background:#77c116;
+}
+.wrap .nav ul .all:hover{
+	height:32px;
+	width:174px;
+	background:#2c2c2c;
+	position:relative;
+	top:-3px;
+}
+.wrap .nav ul .frist:hover{
+	height:37px;
+	width:58px;
+	background:#77c116;
+}
+/*轮播样式*/
+.wrap .banner{
+	position: relative;
+	width:1200px;
+	height:450px;
+	margin:50px auto;
+}
+.wrap .banner .out{
+	width:400px;
+	height:400px;
+	background-color:transparent;
+	border:1px dashed #962a9b;
+	border-radius:240px;
+	margin-top: 100px;
+	margin-left: 400px;
+}
+.wrap .banner .in{
+	position:absolute;
+	width:240px;
+	height:240px;
+	background-color: #a59c9c;
+	z-index:-1;
+	border-radius:180px;
+	top:80px;
+	left:480px;
+}
+.wrap .banner .inn{
+	width:228px;
+	height:228px;
+	background-color: #a59c9c;
+	border: 2px dashed #fff;
+	z-index:1;
+	border-radius:170px;
+	position:absolute;
+	top:84px;
+	left:484px;
+}
+.wrap .banner .inn img{
+	width:150px;
+	height:150px;
+	margin: 39px;
+}
+.wrap .banner .around{
+	position: relative;
+	width:60px;
+	height:60px;
+	background-color: #a59c9c;
+	border: 2px dashed #fff;
+	z-index:1;
+	border-radius:45px;
+	cursor: pointer;
+}
+.wrap .banner .personal{
+	position: absolute;
+	top:-30px;
+	left:560px;
+}
+.wrap .banner .edu{
+	position: absolute;
+	top:0px;
+	left:460px;
+}
+.wrap .banner .job{
+	 position: absolute;
+	 top:0px;
+	 left:665px;
+ }
+.wrap .banner .tree{
+	position: absolute;
+	top:75px;
+	left:388px;
+}
+.wrap .banner .water{
+	position: absolute;
+	top:68px;
+	left:742px;
+}
+.wrap .banner .enter{
+	position: absolute;
+	top:175px;
+	left:367px;
+}
+.wrap .banner .singer{
+	position: absolute;
+	top:168px;
+	left:768px;
+}
+.wrap .banner .doctor{
+	position: absolute;
+	top:270px;
+	left:402px;
+}
+.wrap .banner .sale{
+	position: absolute;
+	top:268px;
+	left:740px;
+}
+.wrap .banner .sales{
+	position: absolute;
+	top:348px;
+	left:475px;
+}
+.wrap .banner .add{
+	position: absolute;
+	top:343px;
+	left:665px;
+}
+.wrap .banner .adds{
+	position: absolute;
+	top:368px;
+	left:570px;
+}
+.wrap .banner .around img{
+	width: 40px;
+	height:40px;
+	margin: 10px;
+}
+.wrap .banner .around span{
+	display: none;
+	position: absolute;
+	top:0;
+	left:60px;
+	width:80px;
+	height:80px;
+	background: #ffdfba;
+	z-index: 1;
+}
+/*列表样式*/
+.wrap .list{
+	margin:29px auto;
+	width:1202px;
+	height:460px;
+}
+/*子导航*/
+.wrap .list .subnav{
+	width:1202px;
+	height:36px;
+	border-bottom:4px solid #a66a0e;
+}
+.wrap .list #f4581{
+	border-bottom:4px solid #ad3022;
+}
+.wrap .list #b825e{
+	border-bottom:4px solid #6fb710;
+}
+
+.wrap .list .subnav li{
+	width:102px;
+	height:40px;
+	text-align:center;
+	line-height:40px;
+	cursor:pointer;
+}
+.wrap .list .subnav .title{
+	margin-right:590px;
+}
+.wrap .list .subnav .title a{
+	font-size:20px;
+	color:#000;
+}
+.wrap .list .subnav li a{
+	color:#808080;
+	font-size:14px;
+}
+.wrap .list .subnav li:hover{
+	background: #a66a0e;
+}
+.wrap .list #f4581 li:hover{
+	background: #ad3022;
+}
+.wrap .list #b825e li:hover{
+	background:#6fb710;
+}
+.wrap .list .subnav li:hover a{
+	color:#fff;
+}
+.wrap .list .mark{
+	width:238px;
+	height:397px;
+	border:1px solid #e6e6e6;
+}
+.wrap .list #zy ul{
+	width:200px;
+	line-height:25px;
+}
+.wrap .list .mark .chair{
+	height:200px;
+}
+.wrap .list .mark .clear{
+	height:130px;
+}
+.wrap .list .mark ul{
+	width:150px;
+	padding:44px 0px 0px 44px;
+	height:200px;
+	text-align:left;
+}
+.wrap .list .mark ul li{
+	list-style-type:disc;
+	list-style-position:inside;
+	color:#bfbfbf;
+}
+.wrap .list .mark ul li a{
+	font-size:12px;
+	color:#656565;
+	font-weight:bold;
+}
+
+/*右侧商品*/
+.goodsList .row .col-md-3 img{
+	width:200px;
+	height:173px;
+	cursor: pointer;
+}
+/*底部样式*/
+.wrap .foot{
+	height:200px;
+	background:#f2f2f2;
+}
+.wrap .foot ul{
+	margin-left:300px;
+}
+.wrap .foot ul li{
+	width:98px;
+	margin:30px 0px 0px 130px;
+}
+.wrap .foot ul li h4 a{
+	color:#333;
+}
+.wrap .foot ul li .fff{
+	width:88px;
+	height:88px;
+	background:#fff;
+	margin-top:23px;
+}
+.wrap .foot ul li p a{
+	color:#333;
+	font-size:14px;
+}
+
+/*登录注册*/
+.signIndex{
+	width:400px;
+	background: #fff;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	display: none
+}
+.signIndex .loginTitle{
+	width:80%;
+	height:42px;
+	line-height: 42px;
+	border-bottom: 2px solid rgb(216,216,216);
+	font-size: 20px;
+}
+.signIndex .warning{
+	width:80%;
+	height:48px;
+	margin-top: 20px;
+	border:1px solid #ccc;
+	background: rgb(254,179,188);
+	border-radius: 5px;
+	line-height: 48px;
+	font-size: 16px;
+	color: rgb(92,92,92);
+	display: none;
+}
+#btn,#registerBtn{
+	width:80%;
+	height:48px;
+	background:rgb(0,183,239);
+	color:#fff;
+	margin-top: 20px;
+	margin-bottom: 44px;
+}
+.container .row ul.clearfix  li.actively{
+	background:#fff!important;
+	border-bottom: 4px solid #00b7ee;
+}
+
+.container .row .Status{
+	width:277px;
+	height: 308px;
+	margin-top: 20px;
+	margin-left: 8px;
+}
+.container .row .title{
+	width: 105%;
+	height: 156px;
+	background:#ACD598;
+	padding-top: 54px;
+	margin-top: 8px;
+	margin-left:-6px ;
+	color: #fff;
+	cursor: pointer;
+}
+
+
+.container .row .main{
+	width: 105%;
+	height:95px;
+	background: #fff;
+	padding: 10px;
+	text-align: left;
+	margin-left:-6px ;
+	cursor: pointer;
+}
+
+.container .row .Signature{
+	width:105%;
+	padding:5px;
+	border-top: 1px solid #ccc;
+	background: #fff;
+	margin-left:-6px ;
+	cursor: pointer;
+}
+.container .row .Status:hover{
+	background: #fff;
+}
+.container .row .Signature img{
+	margin-left: -170px;
+	margin-top: 2px;
+}
+

@@ -1,0 +1,217 @@
+<!Doctype html>
+<html>
+<head>
+    <title>老干妈</title>
+    <meta http-equiv="Content Type" content="text/html" charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="../../css/index.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/error.css">
+    <link rel="stylesheet" href="../../bootstrap/css/bootstrap.min.css">
+    <script src="../../jquery/jquery-2.2.3.min.js"></script>
+    <script src="../../jquery/jquery.validate.min.js"></script>
+    <script src="../../layer/layer.js"></script>
+    <script src="../../bootstrap/js/bootstrap.min.js"></script>
+    <script src="../../js/check.js"></script>
+    <script src="../../js/jump.js"></script>
+</head>
+<body>
+<div class="wrap">
+    <!--top start-->
+    <div class="top clearfix">
+        <p class="home floL">
+            <a href="index.vm" class="our">我们首页</a>
+            欢迎来到我们！
+            <span>请<a href="#" class="sign">登录</a></span>
+            <a href="#" id="registration">免费注册</a>
+        </p>
+        <p class="order floR">
+            <a href="" class="us">我的订单</a>
+            <a href="">走过路过</a>
+            <a href="">收藏夹</a>
+            <a href="">服务中心</a>
+            <a href="">关注我们</a>
+        </p>
+    </div>
+    <!--end top-->
+    <!--search start-->
+    <div class="search">
+        <ul class="clearfix">
+            <li class="floL logo">
+                <a href="index.vm">
+                    <img src="../../images/logo.jpg" alt="logo" class="img-rounded"/>
+                </a>
+            </li>
+            <li class="floL searchBox">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="搜你所想，买你想要" aria-describedby="basic-addon2">
+                    <span class="input-group-addon" id="basic-addon2" style="background: url('../../images/input.jpg') no-repeat -49px;cursor: pointer;"></span>
+                </div>
+                <p>
+                    <a href="">野生核桃</a>
+                    <a href="">有机蓝莓</a>
+                    <a href="">刺梨</a>
+                    <a href="">毛尖茶</a>
+                    <a href="">朝天辣</a>
+                    <a href="">野木瓜</a>
+                    <a href="">山药</a>
+                </p>
+            </li>
+        </ul>
+    </div>
+    <!--end search-->
+    <!--nav start-->
+    <div class="nav">
+        <ul class="clearfix">
+            <li class="floL all"><a href="">所有分类</a></li>
+            <li class="floL frist"><a href="index.vm">首页</a></li>
+            <li class="floL"><a href="">贵阳特产</a></li>
+            <li class="floL"><a href="">遵义特产</a></li>
+            <li class="floL"><a href="">六盘水特产</a></li>
+            <li class="floL"><a href="">安顺特产</a></li>
+            <li class="floL"><a href="">毕节特产</a></li>
+            <li class="floL"><a href="">铜仁特产</a></li>
+            <li class="floL"><a href="">黔东南特产</a></li>
+            <li class="floL"><a href="">黔西南特产</a></li>
+            <li class="floL"><a href="">黔南特产</a></li>
+        </ul>
+    </div>
+    <!--end nav-->
+    <!-- start details-->
+    <div class="row" style="margin: 120.5px">
+        <div class="col-md-3"></div>
+        <div class="col-md-3">
+            <img src="../../images/lgm.png" title="老干妈">
+        </div>
+        <div class="col-md-3">
+            <span style="font-size: 20px;">商品简介</span>
+            <p style="font-size: 14px;margin-top: 10px;">陶华碧老干妈牌油制辣椒是贵州的风味食品。几十年来，一直沿用传统工艺精心酿造，具有优雅细腻，香辣突出，回味悠长等特点。是居家必备，馈赠亲友之良品。1984年，陶华碧女士凭借自己独特的炒制技术，推出了别具风味的佐餐调料，令广大顾客大饱口福，津津乐道。1996年批量生产后在全国迅速成为销售热点。老干妈是国内生产及销售量最大的辣椒制品生产企业，主要生产风味豆豉、风味鸡油辣椒、香辣菜、风味腐乳等20余个系列产品。</p>
+            <p style="background: #b3c59c;width: 69%;height: 50px;line-height: 50px;font-size: 18px;padding-left: 20px;">
+                价格：
+                <span style="color: red;font-weight: bold;">￥<strong>8.5</strong></span>
+            </p>
+            <button type="button" class="btn btn-success">在线咨询</button>
+            <button type="button" class="btn btn-danger">立即购买</button>
+            <button type="button" class="btn btn-warning">加入购物车</button>
+        </div>
+        <div class="col-md-3"></div>
+    </div>
+    <!--end details-->
+    <!--foot start-->
+    <div class="foot">
+        <ul class="clearfix">
+            <li class="floL">
+                <h4>
+                    <a href="">购物指南</a>
+                </h4>
+                <p>
+                    <a href="">购物流程</a><br />
+                    <a href="">会员介绍</a><br />
+                    <a href="">常见问题</a><br />
+                    <a href="">联系客服</a><br />
+                </p>
+            </li>
+            <li class="floL">
+                <h4>
+                    <a href="">配送方式</a>
+                </h4>
+                <p>
+                    <a href="">上门自提</a><br />
+                    <a href="">配送服务查询</a><br />
+                    <a href="">配送费收取标准</a><br />
+                    <a href="">海外配送</a><br />
+                </p>
+            </li>
+            <li class="floL">
+                <h4>
+                    <a href="">支付方式</a>
+                </h4>
+                <p>
+                    <a href="">货到付款</a><br />
+                    <a href="">在线支付</a><br />
+                    <a href="">邮局汇款</a><br />
+                    <a href="">公司转账</a><br />
+                </p>
+            </li>
+            <li class="floL">
+                <h4>
+                    <a href="">售后服务</a>
+                </h4>
+                <p>
+                    <a href="">售后政策</a><br />
+                    <a href="">价格保护</a><br />
+                    <a href="">退款说明</a><br />
+                    <a href="">返修/退换货</a><br />
+                    <a href="">取消订单</a><br />
+                </p>
+            </li>
+            <li class="floL" style="text-align: center;">
+                <h4>
+                    <a href="">关注我们</a>
+                </h4>
+                <p class="fff">
+                    <img src="../../images/ewm.png" alt="" style="width: 100px;height: 100px;">
+                </p>
+            </li>
+
+        </ul>
+    </div>
+    <!--end foot-->
+</div>
+<!--登录-->
+<div class="container signIndex signLogin" style="width:100%;display: none;">
+    <div class="row" style="padding: 15px;"align="center">
+        <div class="loginTitle" align="center">用户登录</div>
+        <div class="warning"></div>
+        <div class="input-group" style="width:80%;margin-top: 30px;">
+            <input type="text" id="user" class="form-control" placeholder="手机号/邮箱" aria-describedby="basic-addon1" style="height:48px;border-radius: 5px;">
+        </div>
+        <div class="input-group" style="width:80%;margin-top: 20px;">
+            <input type="password" id="password" class="form-control"  placeholder="密码" aria-describedby="basic-addon1" style="height:48px;border-radius: 5px;">
+        </div>
+        <div class="input-group" style="width:80%;margin-top: 20px;">
+            <input type="text" id="code" class="form-control"  placeholder="验证码" aria-describedby="basic-addon1" style="width:56%;height:48px;border-radius: 5px;">
+            <img id="codeImg" onclick="changeCodeImg()" src="/captcha/image/" alt="验证码" style="width:37.5%;">
+        </div>
+        <div class="row" style="margin-top: 20px;margin-left: -62%;">
+            <input type="checkbox" value="记住我" />记住我
+        </div>
+        <div class="row" style="margin-top: 20px;">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                <a href="#" id="newReg" style="color: rgb(92,92,92);text-decoration:none">新用户注册</a>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                <a href="#" style="color: rgb(92,92,92);text-decoration:none">忘记密码</a>
+            </div>
+        </div>
+        <button type="button" id="btn" class="btn btn-default loginReg">登录</button>
+    </div>
+</div>
+<!--注册-->
+<div class="container signIndex register" style="width:100%;display: none;">
+    <form action="#" id="checkForm">
+        <div class="row" style="padding: 15px;"align="center">
+            <div class="loginTitle" align="center">用户注册</div>
+            <div class="input-group" style="width:80%;margin-top: 30px;">
+                <input type="text" id="registerUser" name="registerUser" class="form-control" placeholder="请使用手机号/邮箱进行注册" aria-describedby="basic-addon1" style="height:48px;border-radius: 5px;">
+            </div>
+            <div class="input-group" style="width:80%;margin-top: 20px;">
+                <input type="password" id="registerPassword" name="registerPassword" class="form-control"  placeholder="请输入6~20位密码" aria-describedby="basic-addon1" style="height:48px;border-radius: 5px;">
+            </div>
+            <div class="input-group" style="width:80%;margin-top: 20px;">
+                <input type="password" id="rightPassword" name="confirm_password" class="form-control"  placeholder="请确认密码" aria-describedby="basic-addon1" style="height:48px;border-radius: 5px;">
+            </div>
+            <div class="input-group verification" style="width:80%;margin-top: 20px;display: none;">
+                <input type="text" id="registerCode" class="form-control" name="registerCode" placeholder="验证码" aria-describedby="basic-addon1" style="width:56%;height:48px;border-radius: 5px;">
+                <a class="btn btn-default" href="#" role="button" style="height: 48px;padding-top: 15px;">发送短信</a>
+            </div>
+            <div class="row" style="margin-top: 20px;margin-left: -35%;margin-bottom: 20px;">
+                <input type="checkbox" name="regChekbox" value=""/>我以阅读并接受<a href="#" style="color: #00b7ee;text-decoration: none;">用户协议</a>
+            </div>
+            <button type="button" id="registerBtn" class="btn btn-default loginReg" style="margin: 0;">注册</button>
+            <div class="row" style="margin-top:20px;margin-left: -45%;margin-bottom: 44px;">
+                已有账号，<a href="#" id="regLogin" style="color: #00b7ee;text-decoration: none;">马上登录</a>
+            </div>
+        </div>
+    </form>
+</div>
+</body>
+</html>
